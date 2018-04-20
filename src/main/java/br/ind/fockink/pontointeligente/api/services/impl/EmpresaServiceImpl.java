@@ -1,4 +1,4 @@
-package br.ind.fockink.pontointeligente.services.impl;
+package br.ind.fockink.pontointeligente.api.services.impl;
 
 import java.util.Optional;
 
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import br.ind.fockink.pontointeligente.api.entities.Empresa;
 import br.ind.fockink.pontointeligente.api.repositories.EmpresaRepository;
-import br.ind.fockink.pontointeligente.services.EmpresaService;
+import br.ind.fockink.pontointeligente.api.services.EmpresaService;
 
 @Service
 public class EmpresaServiceImpl implements EmpresaService {

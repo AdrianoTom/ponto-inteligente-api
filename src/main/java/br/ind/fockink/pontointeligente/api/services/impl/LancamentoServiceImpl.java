@@ -1,4 +1,4 @@
-package br.ind.fockink.pontointeligente.services.impl;
+package br.ind.fockink.pontointeligente.api.services.impl;
 import java.util.Optional;
 
 import org.slf4j.Logger;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 
 import br.ind.fockink.pontointeligente.api.entities.Lancamento;
 import br.ind.fockink.pontointeligente.api.repositories.LancamentoRepository;
-import br.ind.fockink.pontointeligente.services.LancamentoService;
+import br.ind.fockink.pontointeligente.api.services.LancamentoService;
 
 @Service
 public class LancamentoServiceImpl implements LancamentoService {

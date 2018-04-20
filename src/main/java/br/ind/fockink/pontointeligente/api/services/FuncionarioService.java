@@ -1,10 +1,11 @@
-package br.ind.fockink.pontointeligente.services;
+package br.ind.fockink.pontointeligente.api.services;
 
 import java.util.Optional;
 
 import br.ind.fockink.pontointeligente.api.entities.Funcionario;
 
 public interface FuncionarioService {
+	
 	/**
 	 * Persiste um funcionário na base de dados.
 	 * 

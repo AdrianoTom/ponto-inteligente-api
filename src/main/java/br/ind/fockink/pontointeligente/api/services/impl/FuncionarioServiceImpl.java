@@ -1,4 +1,4 @@
-package br.ind.fockink.pontointeligente.services.impl;
+package br.ind.fockink.pontointeligente.api.services.impl;
 import java.util.Optional;
 
 import org.slf4j.Logger;
@@ -8,10 +8,11 @@ import org.springframework.stereotype.Service;
 
 import br.ind.fockink.pontointeligente.api.entities.Funcionario;
 import br.ind.fockink.pontointeligente.api.repositories.FuncionarioRepository;
-import br.ind.fockink.pontointeligente.services.FuncionarioService;
+import br.ind.fockink.pontointeligente.api.services.FuncionarioService;
 
 @Service
-public class FuncionarioServiceImpl implements FuncionarioService{
+public class FuncionarioServiceImpl implements FuncionarioService {
+	
 	private static final Logger log = LoggerFactory.getLogger(FuncionarioServiceImpl.class);
 
 	@Autowired
